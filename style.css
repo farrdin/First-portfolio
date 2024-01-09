@@ -2,7 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
-/* header start */
+/* header start from here*/
 .banner {
   position: relative;
   text-align: center;
@@ -38,60 +38,327 @@ img {
   font-weight: 900;
   line-height: 80px;
 }
-/* header end */
+/* header end here */
 
-/*  footer started here */
-footer {
-  background: #070211;
+/* discount start from here*/
+.discount {
+  height: 750px;
+  width: 700px;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  background: #fff;
 }
-.contacts {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 0px 25px 0px;
+.discount h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 80px;
+  font-weight: 700;
+  padding: 30px 0px;
 }
-.add {
-  color: #fff;
+.discount .liness {
+  color: #f00;
+  text-align: center;
   font-family: Inter;
   font-size: 20px;
-  font-weight: 600;
-  line-height: 30px;
-  width: 375px;
-  height: 80px;
+  font-weight: 500;
+  padding-bottom: 10px;
 }
-.icons {
-  color: #fff;
-  display: flex;
-  margin: 30px 0px 30px 420px;
-}
-.icon {
-  height: 50px;
-  width: 50px;
-  padding: 0px 10px;
-}
-.num h3 {
-  color: #fff;
+.discount .okay {
+  color: #070211;
+  text-align: center;
   font-family: Inter;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 30px;
-  width: 195px;
-  height: 40px;
-  padding-right: 20px;
+  font-size: 30px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  padding-bottom: 30px;
 }
-.reserved {
-  display: flex;
-  justify-content: space-between;
-  color: #fff;
-  font-size: 18px;
-  margin: 30px 0px 100px 0px;
-}
-.bottom {
-  height: 400px;
+.discount img {
+  height: 500px;
+  width: 680px;
+  padding: 10px 10px 10px 10px;
+} /* discount End here */
+
+/* banner2 start from here */
+.banner2 {
+  height: 500px;
   width: 1056px;
   display: block;
   margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
 }
-/* footer end here */
+.banner2 h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  width: 450px;
+}
+.banner2 p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.banner2 strong {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  padding-left: 30px;
+}
+.banner2 {
+  position: relative;
+}
+.banner2 .contentss {
+  position: absolute;
+  top: 100px;
+  left: 120px;
+}
+.banner2 .newimg img {
+  height: 350px;
+  width: 260px;
+  position: absolute;
+  right: 100px;
+  bottom: 60px;
+}
+/* banner2 end here */
+
+/* address start form here */
+.address {
+  width: 1056px;
+  height: 400px;
+  background: rgba(255, 0, 0, 0.05);
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.address .same span {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.address .same {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.address .adresss {
+  padding-top: 110px;
+}
+/* address end here */
+
+/* moffer start from here */
+.moffer {
+  height: 470px;
+  width: 1056px;
+  background: #fff;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  position: relative;
+}
+.circle {
+  height: 300px;
+  width: 300px;
+  border: red 10px solid;
+  border-radius: 150px;
+  position: absolute;
+  top: 40px;
+  left: 380px;
+}
+.circle img {
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+.offer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 70px;
+}
+.left h3 {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px;
+}
+.left h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.left p {
+  padding-left: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  line-height: px;
+  width: 300px;
+}
+.right h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+.right p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 300px;
+}
+.right img {
+  height: 180px;
+  width: 180px;
+  padding-top: 50px;
+}
+/* offer section end here */
+
+/* discountfive start here */
+.discountfive .func {
+  text-align: center;
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 30px;
+}
+.discountfive .tion {
+  text-align: center;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-top: 20px;
+}
+.discountfive .tion span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.discountfive .dayss {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 30px 89px;
+}
+.discountfive .line {
+  height: 180px;
+}
+.discountfive .wow {
+  height: 429px;
+  width: 433px;
+}
+.discountfive {
+  height: 920px;
+  width: 1056px;
+  background: #fff;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  position: relative;
+}
+.discountfive .discount {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  top: 370px;
+  right: 300px;
+}
+.discountfive .box {
+  height: 429px;
+  width: 550px;
+  position: absolute;
+  top: 480px;
+  left: 60px;
+}
+/* discountfive end here */
+
+/* awesome start from here */
+.awesome {
+  height: 920px;
+  width: 1056px;
+  background: #fff;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.awesome .gift {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.awesome .port {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 2000;
+  margin-bottom: 30px;
+}
+.awesome .desp {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+.imgsec img {
+  height: 330px;
+  width: 329px;
+  padding: 10px;
+}
+.imgsec {
+  display: flexbox;
+}
+/* awesome ends here */
 
 /* subscribe are start here */
 .subscribe {
@@ -148,7 +415,7 @@ footer {
   border-radius: 0px 50px 50px 0px;
   background: #f00;
   position: absolute;
-  right: 25%;
+  right: 20%;
   color: #fff;
   text-align: center;
   font-family: Inter;
@@ -161,332 +428,55 @@ footer {
 }
 /* subscribe sec ends here */
 
-/* awesome section start here */
-.awesome {
-  height: 920px;
-  width: 1056px;
-  background: #fff;
-  display: block;
-  margin: auto;
-  margin-bottom: 100px;
-  margin-top: 100px;
+/*  footer start from here */
+footer {
+  background: #070211;
 }
-.awesome .gift {
-  color: #f00;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-bottom: 20px;
-}
-.awesome .port {
-  color: #070211;
-  font-family: Merriweather;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 2000;
-  margin-bottom: 30px;
-}
-.awesome .desp {
-  color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  margin-bottom: 30px;
-}
-.imgsec img {
-  height: 330px;
-  width: 329px;
-  padding: 10px;
-}
-.imgsec {
-  display: flexbox;
-}
-/* awesome section ends here */
-
-.discountfive .func {
-  text-align: center;
-  color: #070211;
-  font-family: Inter;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  padding-top: 30px;
-}
-.discountfive .tion {
-  text-align: center;
-  color: #070211;
-  font-family: Merriweather;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  padding-top: 20px;
-}
-.discountfive .tion span {
-  color: #f00;
-  text-align: center;
-  font-family: Merriweather;
-  font-size: 72px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-}
-.discountfive .dayss {
-  color: rgba(7, 2, 17, 0.6);
-  text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 32px;
-  padding: 30px 89px;
-}
-
-.discountfive .line {
-  height: 180px;
-}
-.discountfive .wow {
-  height: 429px;
-  width: 433px;
-}
-
-.discountfive {
-  height: 920px;
-  width: 1056px;
-  background: rgba(255, 0, 0, 0.05);
-  display: block;
-  margin: auto;
-  margin-bottom: 100px;
-  margin-top: 100px;
-  position: relative;
-}
-
-.discountfive .discount {
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  top: 450px;
-  right: 335px;
-}
-.discountfive .box {
-  height: 429px;
-  width: 550px;
-  position: absolute;
-  top: 480px;
-  left: 60px;
-}
-/* awesome secttion end here */
-
-/* offer section start here */
-.moffer {
-  height: 470px;
-  width: 1056px;
-  background: rgba(255, 0, 0, 0.05);
-  display: block;
-  margin: auto;
-  margin-bottom: 100px;
-  margin-top: 100px;
-  position: relative;
-}
-.circle {
-  height: 300px;
-  width: 300px;
-  border: red 10px solid;
-  border-radius: 150px;
-  position: absolute;
-  top: 40px;
-  left: 380px;
-}
-.circle img {
-  height: 250px;
-  width: 250px;
-  display: block;
-  margin: auto;
-  margin-top: 25px;
-}
-
-.offer {
+.contacts {
   display: flex;
   justify-content: space-between;
-  padding-top: 70px;
+  padding: 50px 0px 25px 0px;
 }
-.left h3 {
-  color: #f00;
-  text-align: left;
-  font-family: Inter;
-  font-size: 24px;
-  font-weight: 500;
-  padding: 20px;
-}
-.left h1 {
-  color: #070211;
-  font-family: Merriweather;
-  font-size: 48px;
-  font-weight: 900;
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-.left p {
-  padding-left: 20px;
-  color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
-  font-size: 16px;
-  line-height: px;
-  width: 300px;
-}
-
-.right h1 {
-  color: #f00;
-  font-family: Inter;
-  font-size: 48px;
-  font-weight: 700;
-}
-.right p {
-  color: rgba(7, 2, 17, 0.6);
+.add {
+  color: #fff;
   font-family: Inter;
   font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  width: 300px;
-}
-.right img {
-  height: 180px;
-  width: 180px;
-  padding-top: 50px;
-}
-/* offer section end here */
-
-/* address start form here */
-
-.address {
-  width: 1056px;
-  height: 400px;
-  background: rgb(249, 218, 190);
-  display: block;
-  margin: auto;
-  margin-bottom: 100px;
-  margin-top: 100px;
-}
-.address .same span {
-  color: #f00;
-  text-align: center;
-  font-family: Inter;
-  font-size: 32px;
   font-weight: 600;
-  line-height: 56px;
+  line-height: 30px;
+  width: 375px;
+  height: 80px;
 }
-.address .same {
-  color: #070211;
-  font-family: Inter;
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 56px;
-}
-.address .adresss {
-  padding-top: 110px;
-}
-/* address end here */
-
-/* banner 2 start from here */
-.banner2 {
-  height: 500px;
-  width: 1056px;
-  display: block;
-  margin: auto;
-  margin-bottom: 100px;
-  margin-top: 100px;
-}
-
-.banner2 h2 {
+.icons {
   color: #fff;
-  font-family: Merriweather;
-  font-size: 50px;
-  font-weight: 900;
-  letter-spacing: 7.04px;
-  width: 450px;
+  display: flex;
+  margin: 30px 0px 30px 420px;
 }
-
-.banner2 p {
-  color: rgba(255, 255, 255, 0.8);
+.icon {
+  height: 50px;
+  width: 50px;
+  padding: 0px 10px;
+}
+.num h3 {
+  color: #fff;
   font-family: Inter;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 30px;
-  width: 500px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+  width: 195px;
+  height: 40px;
+  padding-right: 20px;
 }
-
-.banner2 span {
+.reserved {
+  display: flex;
+  justify-content: space-between;
   color: #fff;
-  text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-  padding-left: 30px;
+  font-size: 18px;
+  margin: 30px 0px 100px 0px;
 }
-.banner2 {
-  position: relative;
-}
-
-.banner2 .contentss {
-  position: absolute;
-  top: 100px;
-  left: 120px;
-}
-.banner2 .newimg img {
-  height: 350px;
-  width: 220px;
-  position: absolute;
-  right: 100px;
-  bottom: 60px;
-}
-/* banner 2 end here */
-
-/* discount start from here*/
-.discount {
-  height: 750px;
-  width: 700px;
+.bottom {
+  height: 400px;
+  width: 1056px;
   display: block;
   margin: auto;
-  margin-bottom: 100px;
-  margin-top: 100px;
-  background: #ffe9e9;
 }
-.discount h1 {
-  color: #f00;
-  text-align: center;
-  font-family: Inter;
-  font-size: 70px;
-  font-weight: 700;
-  padding: 30px 0px;
-}
-.discount .liness {
-  color: #f00;
-  text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.discount .okay {
-  color: #070211;
-  text-align: center;
-  font-family: Inter;
-  font-size: 30px;
-  word-spacing: 10px;
-  letter-spacing: 5px;
-  font-weight: 700;
-  padding-bottom: 30px;
-}
-.discount img {
-  height: 500px;
-  width: 680px;
-  padding: 10px 10px 10px 10px;
-}
-
-/* discount End from here */
+/* footer end here */
