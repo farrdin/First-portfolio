@@ -302,8 +302,9 @@ img {
   height: 250px;
   width: 250px;
   position: absolute;
-  top: 370px;
+  top: 360px;
   right: 300px;
+  background: none;
 }
 .discountfive .box {
   height: 429px;
