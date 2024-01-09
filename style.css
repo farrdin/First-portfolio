@@ -39,6 +39,7 @@ img {
   line-height: 80px;
 }
 /* header end */
+
 /*  footer started here */
 footer {
   background: #070211;
@@ -51,10 +52,9 @@ footer {
 .add {
   color: #fff;
   font-family: Inter;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
   width: 375px;
   height: 80px;
 }
@@ -66,22 +66,23 @@ footer {
 .icon {
   height: 50px;
   width: 50px;
+  padding: 0px 10px;
 }
 .num h3 {
   color: #fff;
   font-family: Inter;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
   width: 195px;
   height: 40px;
+  padding-right: 20px;
 }
 .reserved {
   display: flex;
   justify-content: space-between;
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   margin: 30px 0px 100px 0px;
 }
 .bottom {
@@ -102,6 +103,7 @@ footer {
   margin: auto;
   margin-bottom: 100px;
   margin-top: 100px;
+  padding-top: 150px;
 }
 .subscribe img {
   height: 150px;
@@ -134,17 +136,24 @@ footer {
 .subscribe .email {
   width: 648px;
   height: 72px;
+  padding: 0px 0px 0px 20px;
+  font-size: 18px;
   border-radius: 50px;
   background: #fff;
   position: relative;
 }
 .subscribe .btn {
   width: 210px;
-  height: 74px;
+  height: 75px;
   border-radius: 0px 50px 50px 0px;
   background: #f00;
   position: absolute;
   right: 25%;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
 }
 .input {
   display: ;
@@ -169,16 +178,14 @@ footer {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .awesome .port {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
   font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  text-transform: capitalize;
+  font-weight: 2000;
   margin-bottom: 30px;
 }
 .awesome .desp {
