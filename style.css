@@ -1,0 +1,328 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* header start */
+.banner {
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin: 50px 140px;
+  border-radius: 16px;
+  background: linear-gradient(#070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img {
+  height: 500px;
+  width: 1056px;
+}
+
+.heading {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 80px;
+}
+/* header end */
+/*  footer started here */
+footer {
+  background: #070211;
+}
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px 25px 0px;
+}
+.add {
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  width: 375px;
+  height: 80px;
+}
+.icons {
+  color: #fff;
+  display: flex;
+  margin: 30px 0px 30px 420px;
+}
+.icon {
+  height: 50px;
+  width: 50px;
+}
+.num h3 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  width: 195px;
+  height: 40px;
+}
+.reserved {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 15px;
+  margin: 30px 0px 100px 0px;
+}
+.bottom {
+  height: 400px;
+  width: 1056px;
+  display: block;
+  margin: auto;
+}
+/* footer end here */
+
+/* subscribe are start here */
+.subscribe {
+  height: 600px;
+  width: 1056px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.subscribe img {
+  height: 150px;
+  width: 150px;
+  display: block;
+  margin: auto;
+}
+.subscribe .news {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.subscribe p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding-left: 80px;
+  padding-right: 30px;
+}
+.subscribe .email {
+  width: 648px;
+  height: 72px;
+  border-radius: 50px;
+  background: #fff;
+  position: relative;
+}
+.subscribe .btn {
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  position: absolute;
+  right: 28%;
+}
+.input {
+  display: ;
+  margin: 50px 0px 0px 200px;
+}
+/* subscribe sec ends here */
+
+/* awesome section start here */
+.awesome {
+  height: 920px;
+  width: 1056px;
+  background: #fff;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.awesome .gift {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.awesome .port {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.awesome .desp {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+.imgsec img {
+  height: 330px;
+  width: 329px;
+  padding: 10px;
+}
+.imgsec {
+  display: flexbox;
+}
+/* awesome section ends here */
+
+.discountfive .func {
+  text-align: center;
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 30px;
+}
+.discountfive .tion {
+  text-align: center;
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-top: 20px;
+}
+.discountfive .tion span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.discountfive .dayss {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 30px 89px;
+}
+
+.discountfive .line {
+  height: 180px;
+}
+.discountfive .wow {
+  height: 429px;
+  width: 433px;
+}
+
+.discountfive {
+  height: 920px;
+  width: 1056px;
+  background: rgba(255, 0, 0, 0.05);
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  position: relative;
+}
+
+.discountfive .discount {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  top: 450px;
+  right: 335px;
+}
+.discountfive .box {
+  height: 429px;
+  width: 550px;
+  position: absolute;
+  top: 480px;
+  left: 60px;
+}
+/* awesome secttion end here */
+
+/* offer section start here */
+.offer {
+  height: 920px;
+  width: 1056px;
+  background: rgba(255, 0, 0, 0.05);
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.left h3 {
+  color: #f00;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  padding: 20px;
+}
+.left h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.left p {
+  padding-left: 20px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  line-height: px;
+  width: 300px;
+}
+
+.right h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.right p {
+  color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+width: 300px;
+}
