@@ -276,16 +276,37 @@ footer {
 /* awesome secttion end here */
 
 /* offer section start here */
-.offer {
-  height: 920px;
+.moffer {
+  height: 470px;
   width: 1056px;
   background: rgba(255, 0, 0, 0.05);
   display: block;
   margin: auto;
   margin-bottom: 100px;
   margin-top: 100px;
+  position: relative;
+}
+.circle {
+  height: 300px;
+  width: 300px;
+  border: red 10px solid;
+  border-radius: 150px;
+  position: absolute;
+  top: 40px;
+  left: 380px;
+}
+.circle img {
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.offer {
   display: flex;
   justify-content: space-between;
+  padding-top: 70px;
 }
 .left h3 {
   color: #f00;
@@ -319,10 +340,146 @@ footer {
   font-weight: 700;
 }
 .right p {
-  color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
-line-height: 32px;
-width: 300px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 300px;
 }
+.right img {
+  height: 180px;
+  width: 180px;
+  padding-top: 50px;
+}
+/* offer section end here */
+
+/* address start form here */
+
+.address {
+  width: 1056px;
+  height: 400px;
+  background: rgb(249, 218, 190);
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.address .same span {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.address .same {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.address .adresss {
+  padding-top: 110px;
+}
+/* address end here */
+
+/* banner 2 start from here */
+.banner2 {
+  height: 500px;
+  width: 1056px;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.banner2 h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 7.04px;
+  width: 450px;
+}
+
+.banner2 p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.banner2 span {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  padding-left: 30px;
+}
+.banner2 {
+  position: relative;
+}
+
+.banner2 .contentss {
+  position: absolute;
+  top: 100px;
+  left: 120px;
+}
+.banner2 .newimg img {
+  height: 350px;
+  width: 220px;
+  position: absolute;
+  right: 100px;
+  bottom: 60px;
+}
+/* banner 2 end here */
+
+/* discount start from here*/
+.discount {
+  height: 750px;
+  width: 700px;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  background: #ffe9e9;
+}
+.discount h1 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 70px;
+  font-weight: 700;
+  padding: 30px 0px;
+}
+.discount .liness {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.discount .okay {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.discount img {
+  height: 500px;
+  width: 680px;
+  padding: 10px 10px 10px 10px;
+}
+
+/* discount End from here */
