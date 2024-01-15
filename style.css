@@ -353,11 +353,14 @@ img {
 }
 .imgsec img {
   height: 330px;
-  width: 329px;
+  width: 326px;
   padding: 10px;
 }
 .imgsec {
   display: flexbox;
+}
+.awesome img:hover {
+  border: 1px solid gray;
 }
 /* awesome ends here */
 
